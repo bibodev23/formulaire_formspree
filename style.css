@@ -1,0 +1,31 @@
+.formulaire
+{
+    width: 20%;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+.formulaire form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+form input, form textarea {
+    border-radius: 8px;
+    border: 1px solid;
+}
+
+input {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+#btn {
+    cursor: pointer;
+    transition: 0.3s;
+}
+#btn:hover {
+    background-color:  rgb(255, 114, 114);
+    color: white;
+}

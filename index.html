@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulaire</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <div class="formulaire">
-        <form action="">
+        <form action="https://formspree.io/f/xqkovorn" method="POST">
             <label for="name">Votre nom</label>
             <input type="text" name="name" placeholder="Votre nom">
 
@@ -17,6 +18,8 @@
 
             <label for="message">Votre message</label>
             <textarea name="message" id="" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="Envoyer" id="btn">
         </form>
     </div>
 </body>
